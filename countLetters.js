@@ -5,9 +5,7 @@ function countLetters(str) {
   var emptyObject = {};
   for (var letter of noSpace) {
     emptyObject[letter] = 0;
-  }
-console.log(emptyObject);
-
+  } // fill the key in the object;
   for (var letter of noSpace){
      emptyObject[letter] += 1;
   }
